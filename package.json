@@ -1,0 +1,48 @@
+{
+  "name": "ljsync",
+  "version": "4.5.2",
+  "description": "sync local changes to vm",
+  "main": "build/index.js",
+  "repository": "nuxdie/ljsync",
+  "bin": {
+    "ljsync": "build/index.js"
+  },
+  "scripts": {
+    "test": "exit 0",
+    "build": "gulp"
+  },
+  "keywords": [
+    "lj",
+    "dev",
+    "rsync"
+  ],
+  "author": "nuxdie",
+  "license": "ISC",
+  "dependencies": {
+    "argh": "0.1.4",
+    "babel-polyfill": "6.23.0",
+    "babel-runtime": "6.23.0",
+    "chokidar": "1.7.0",
+    "colors": "1.1.2",
+    "find-up": "2.1.0",
+    "osx-notifier": "0.2.2",
+    "own-version": "0.0.2",
+    "promise-ftp-common": "1.1.5",
+    "promise-sftp": "0.10.0",
+    "rsync": "0.6.1"
+  },
+  "devDependencies": {
+    "babel": "6.23.0",
+    "babel-core": "6.24.1",
+    "babel-plugin-syntax-async-functions": "6.13.0",
+    "babel-plugin-transform-async-to-generator": "6.24.1",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-regenerator": "6.24.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-chmod": "2.0.0"
+  }
+}
