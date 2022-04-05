@@ -1,3 +1,6 @@
+# ⚠ Устаревший репо с уязвимостями
+Это устаревший репо, сохранённый в архивных целях. Он содержит уязвимости вроде https://github.com/advisories/GHSA-xvch-5gv4-984h, и им не стоит пользоваться.
+
 #build
 Build task runs automatically on commit to master with version change in package.json
 
